@@ -9,10 +9,16 @@ $ sudo apt-get install -y mongodb-org
 $ sudo service mongod start
 $ cat /var/log/mongodb/mongod.log
 ```
-### Install PyMongo as the python mongodb driver
+### Install Necessary Library
 http://api.mongodb.com/python/current/
 ``` 
 $ python3 -m pip install pymongo 
+```
+```
+$ pip3 install pytz
+```
+```
+$ pip3 install tweepy
 ```
 ### Create a database named "twitterdb" for storing tweets
 
