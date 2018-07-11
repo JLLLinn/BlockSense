@@ -13,12 +13,9 @@ $ cat /var/log/mongodb/mongod.log
 http://api.mongodb.com/python/current/
 ``` 
 $ python3 -m pip install pymongo 
-```
-```
 $ pip3 install pytz
-```
-```
 $ pip3 install tweepy
 ```
 ### Create a database named "twitterdb" for storing tweets
-
+### Use SupervisorOrg to long run python
+``` $ supervisord -c supervisord.conf ```
